@@ -17,23 +17,23 @@ go get github.com/sasha-filippov/cache
 to initialize 
 
 ```sh
-cache := cache.New()
+c := cache.New()
 ```
 
 to add a new element:
 
 ```sh
-cache.Set("someKey", anyValue)
+c.Set("someKey", anyValue)
 ```
 
 to check how many elements:
 
 ```sh
-fmt.Println(cache.Size())
+fmt.Println(c.Size())
 ```
 
 to delete an element:
 
 ```sh
-cache.Delete("somekey")
+c.Delete("somekey")
 ```
