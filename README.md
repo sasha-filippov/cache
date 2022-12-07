@@ -1,5 +1,5 @@
 <h1>A simple in memory cache implementation</h1>
-The simple implementation of a in memory cache that uses a slice as a data structure that stores data as {key string} value interface{}
+The simple implementation of a in memory cache that uses a slice as a data structure to store data as {key string} value interface{}
 It implements such methods as:
 <ul>
 <li><b>New</b> - to create an instance of a Cache structure</li>
