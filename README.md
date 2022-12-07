@@ -7,3 +7,23 @@ It implements such methods as:
 <li><b>Delete</b> - to delete a value by key if it exists. The operation is done in O(1)</li>
 <li><b>Size</b> - to get a number of elements stored in a cache at the moment</li>
 </ul>
+<h1>#How to install</h1>
+
+``go get github.com/sasha-filippov/cache``
+
+<h1>#How to use</h1>
+to initialize 
+
+``cache := cache.New()``
+
+to add a new element:
+
+``cache.Set("someKey", anyValue)``
+
+to check how many elements:
+
+``fmt.Println(cache.Size())``
+
+to delete an element:
+
+``cache.Delete("somekey")``
