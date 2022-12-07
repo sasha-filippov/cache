@@ -9,21 +9,31 @@ It implements such methods as:
 </ul>
 <h1>#How to install</h1>
 
-``go get github.com/sasha-filippov/cache``
+```sh
+go get github.com/sasha-filippov/cache
+```
 
 <h1>#How to use</h1>
 to initialize 
 
-``cache := cache.New()``
+```sh
+cache := cache.New()
+```
 
 to add a new element:
 
-``cache.Set("someKey", anyValue)``
+```sh
+cache.Set("someKey", anyValue)
+```
 
 to check how many elements:
 
-``fmt.Println(cache.Size())``
+```sh
+fmt.Println(cache.Size())
+```
 
 to delete an element:
 
-``cache.Delete("somekey")``
+```sh
+cache.Delete("somekey")
+```
